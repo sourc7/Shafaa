@@ -1764,3 +1764,13 @@ img.alignnone,
 	/* pagination */
 	.archive-nav { margin: 30px 0 25px; }
 }
+
+/* 
+  13.Revision
+*/
+
+/* Disqus Comment System's Responsive Margin */
+
+#disqus_thread {
+    margin: 2% 3%;
+}
