@@ -3,7 +3,7 @@
 	Theme Name: Shafaa
 	Theme URI: https://twitter.com/sourc7
 	Version: 1.04
-	Description: Shafaa is a minimal grid style blog theme for casual blogger and post collectors. It features lightweight, responsive, and retina-ready design, support for the video post formats, three custom widgets, an archive page template, a gallery slideshow, custom accent color support, custom logo support, and editor styles
+	Description: Shafaa is a minimal grid style blog theme for casual blogger and post collectors. It features lightweight, responsive, and retina-ready design, support for the video post formats, three custom widgets, an archive page template, custom accent color support, custom logo support, and editor styles
 	Tags: gray, silver, white, light, two-columns, left-sidebar, responsive-layout, custom-colors, custom-menu, editor-style, featured-images, flexible-header, post-formats, sticky-post, theme-options
 	Author: Irvan Kurniawan
 	Author URI: https://twitter.com/sourc7
@@ -43,7 +43,8 @@ p, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup,
 	margin:0;
 	padding:0;
 	border:0;
-	font:400 100%/1 inherit;
+  font:400 100%/1;
+  font-family:inherit;
 	text-align:left;
 }
 
@@ -332,7 +333,6 @@ body a,
 	padding-bottom: 0;
 	border-bottom: none;
 }
-
 
 /* Widget text */
 
@@ -976,6 +976,23 @@ code, kbd, pre {
 	border-radius: 6px;
 }
 
+.post-content .wp-caption-text,
+.post-content {
+  padding-top: 10px;
+  font-size: 0.9em;
+  line-height: 120%;
+  font-style: italic;
+  color: #667;
+  text-align: center;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.post-content > :first-child { margin-top: 0; }
+.post-content :last-child { margin-bottom: 0; }
 
 /* Post media */
 
