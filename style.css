@@ -28,6 +28,7 @@
 	1.	Pagination
 	11.	Page & Page Templates
 	12. Responsive
+	13. Revision
 */
 
 /*
@@ -43,8 +44,11 @@ p, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup,
 	margin:0;
 	padding:0;
 	border:0;
-  font:400 100%/1;
-  font-family:inherit;
+	font-weight:normal;
+	font-style:normal;
+	font-size:100%;
+	line-height:1;
+	font-family:inherit;
 	text-align:left;
 }
 
