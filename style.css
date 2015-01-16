@@ -977,7 +977,7 @@ code, kbd, pre {
 }
 
 .post-content .wp-caption-text,
-.post-content {
+.post-content .gallery-caption {
   padding-top: 10px;
   font-size: 0.9em;
   line-height: 120%;
@@ -986,7 +986,7 @@ code, kbd, pre {
   text-align: center;
 }
 
-.post-content {
+.post-content .gallery-caption {
   font-size: 16px;
   line-height: 24px;
 }
